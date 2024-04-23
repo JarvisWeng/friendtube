@@ -1,0 +1,3 @@
+/state = each node sends its state which includes number of video and the chunks of each video it has
+/state/{vidid} = sends back the state of the video requested, mainly the , empty if nothing
+/chunk/{vidid}/{chunkid} = get the chunk of the video

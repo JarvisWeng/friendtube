@@ -1,0 +1,17 @@
+
+
+
+[website]/register/?ip=[foo]&port=[bar]
+[website]/metadata/?videoId=[foo]
+V you can remove the add,check,rm or whatever if you don't want to use it.
+[website]/cluster/?add=[videoId0],[videoId1],...,[videoIdk]&check=[same]&rm=[same]&nodeId=[nid]
+[website]/chunk/?videoId=[foo]&chunkId=[bar]
+[website]/login/?option=[login|register]&email=[email]&username=[username] <- username is required for register, not required for login
+[website]/manifest/?videoId=[foo]
+[website]/thumbnails/?videoId=[foo]
+[website]/favicon.ico
+
+
+
+
+
